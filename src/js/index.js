@@ -1,20 +1,20 @@
-// const loading = document.querySelector(".loading");
+const loading = document.querySelector(".loading");
 
-// window.addEventListener("load", function () {
-//   showPage();
-// });
-// function showPage() {
-//   const timeLimit = 5;
-//   let i = 0;
-//   loading.style.opacity = 0;
-//   const timer = setInterval(function () {
-//     i++;
-//     if (i == timeLimit) {
-//       clearInterval(timer);
-//       loading.style.opacity = 1;
-//     }
-//   }, 1000);
-// }
+window.addEventListener("load", function () {
+  showPage();
+});
+function showPage() {
+  const timeLimit = 5;
+  let i = 0;
+  loading.style.opacity = 0;
+  const timer = setInterval(function () {
+    i++;
+    if (i == timeLimit) {
+      clearInterval(timer);
+      loading.style.opacity = 1;
+    }
+  }, 1000);
+}
 
 const inputField = document.getElementById("inputField");
 
